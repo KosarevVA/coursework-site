@@ -1,0 +1,251 @@
+.block1 {
+    width: 35%;
+    background: linear-gradient(135deg, hotpink, dodgerblue 100%);
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px dodgerblue;
+    float: left;
+    position: absolute;
+    top: 96%;
+    left: 65%;
+   }
+   .resp {
+    position: fixed;
+    width:100%;
+    height: 400px;
+}
+.resp1 {
+    position: fixed;
+    width:100%;
+    height: 100%;
+}
+.nazad{
+     padding: 15px 25px;
+         font-size: 24px;
+         text-align: center;
+         cursor: pointer;
+         outline: none;
+         color: #fff;
+         background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px cornflowerblue;
+         position: absolute;
+         top: 90%;
+         left: 44.5%;
+   }
+   .nazad:hover {background-color: goldenrod}
+   .nazad:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px dodgerblue;
+          transform: translateY(4px);
+          position: absolute;
+          top: 90%;
+          left: 44.5%;
+      }
+body{
+    background: url("https://www.culture.ru/storage/images/58a6d8c1cb971eb0c89d1d6aac9e9843/9d1bd5c342361214e248b8602794ec6d.jpeg");
+    position: fixed;
+    width:100%;
+    height: 100%;
+
+  }
+.text{
+    font: bold 5em "SEGOE SCRIPT", sans-serif;
+    color: whitesmoke;
+    text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                 powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                 blue 5px 5px 0;
+    margin-bottom: 0.1em;
+}
+.blockus{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:16px;
+color: white;
+width: 300px;
+height: 300px;
+border-radius:20px;
+top:110px
+}
+.blockus p {
+padding: 110px 0px;
+text-align:
+center;
+}
+.blockpen{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:5%;
+margin-left:150px;
+background:url(https://avatars.mds.yandex.net/get-zen_doc/1590365/pub_5e58d9f3ddae7b0ac9ba68b9_5e58e27475df9a72abac9eb1/scale_1200);
+background-size:cover
+}
+.blockpen:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockpen:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+ppen{
+position: absolute;
+left:17.6%;
+top:53%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockdds{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:35%;
+margin-left:150px;
+background:url(https://yt3.ggpht.com/a/AATXAJxyDaLyl4CCRf1HD6U47ZagyQwAx3oyobw0DQ=s900-c-k-c0xffffffff-no-rj-mo);
+background-size:cover
+}
+.blockdds:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockdds:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pdds{
+position: absolute;
+left:47.6%;
+top:53%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockpi{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:65%;
+margin-left:150px;
+background:url(https://vignette.wikia.nocookie.net/disney/images/8/84/Untitled_8.jpg/revision/latest?cb=20120720222250);
+background-size:cover
+}
+.blockpi:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockpi:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+ppi{
+position: absolute;
+left:74.5%;
+top:53%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockve{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:52%;
+left:50%;
+margin-left:150px;
+background:url(https://i.ytimg.com/vi/cvp4SB16e-k/hqdefault.jpg);
+background-size:cover
+}
+.blockve:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockve:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pve{
+position: absolute;
+left:57.5%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockdj{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:52%;
+left:20%;
+margin-left:150px;
+background:url(https://i.pinimg.com/736x/b7/96/1c/b7961c50f9f10db9737e5bb671e4f9f8.jpg);
+background-size:cover
+}
+.blockdj:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockdj:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pdj{
+position: absolute;
+left:26%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}

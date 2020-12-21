@@ -1,0 +1,407 @@
+.block1 {
+    width: 35%;
+    background: linear-gradient(135deg, hotpink, dodgerblue 100%);
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px dodgerblue;
+    float: left;
+    position: absolute;
+    top: 96%;
+    left: 65%;
+   }
+   .resp {
+    position: fixed;
+    width:100%;
+    height: 400px;
+}
+.resp1 {
+    position: fixed;
+    width:100%;
+    height: 100%;
+}
+.nazad{
+     padding: 15px 25px;
+         font-size: 24px;
+         text-align: center;
+         cursor: pointer;
+         outline: none;
+         color: #fff;
+         background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px cornflowerblue;
+         position: absolute;
+         top: 90%;
+         left: 44.5%;
+   }
+   .nazad:hover {background-color: goldenrod}
+   .nazad:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px dodgerblue;
+          transform: translateY(4px);
+          position: absolute;
+          top: 90%;
+          left: 44.5%;
+      }
+body{
+    background: url("https://www.culture.ru/storage/images/58a6d8c1cb971eb0c89d1d6aac9e9843/9d1bd5c342361214e248b8602794ec6d.jpeg");
+    position: fixed;
+    width:100%;
+    height: 100%;
+
+  }
+.text{
+    font: bold 5em "SEGOE SCRIPT", sans-serif;
+    color: whitesmoke;
+    text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                 powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                 blue 5px 5px 0;
+    margin-bottom: 0.1em;
+}
+.blockus{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:12px;
+color: white;
+width: 270px;
+height: 270px;
+border-radius:20px;
+top:110px
+}
+.blockus p {
+padding: 110px 0px;
+text-align:
+center;
+}
+.blockDP{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:35%;
+margin-left:150px;
+background:url(https://yt3.ggpht.com/a/AATXAJzGF9nxT2NTq92ptKW3UjlkeCLSWPHdlPN1_blGew=s900-c-k-c0x00ffffff-no-rj);
+background-size:cover
+}
+.blockDP:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockDP:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pDP{
+position: absolute;
+left:43.3%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockMP{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:15%;
+margin-left:150px;
+background:url(https://yt3.ggpht.com/a/AATXAJzpxTCF5HXIJ0IpOqSTBzaG7UulWnWhq7DnsOX00A=s900-c-k-c0x00ffffff-no-rj);
+background-size:cover
+}
+.blockMP:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockMP:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pMP{
+position: absolute;
+left:23.3%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockVK{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:-5%;
+margin-left:150px;
+background:url(https://sun9-18.userapi.com/c837425/v837425930/2303/-Yw26geM0oM.jpg);
+background-size:cover
+}
+.blockVK:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockVK:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pVK{
+position: absolute;
+left:3.3%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blocksus{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:75%;
+margin-left:150px;
+background:url(https://sun9-7.userapi.com/c848620/v848620352/5e3a7/1Qy7-wwLnzU.jpg);
+background-size:cover
+}
+.blocksus:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blocksus:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+psus{
+position: absolute;
+left:83.3%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockstan{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:55%;
+margin-left:150px;
+background:url(https://pbs.twimg.com/profile_images/762784613873946624/Ykm7M07w.jpg);
+background-size:cover
+}
+.blockstan:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockstan:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pstan{
+position: absolute;
+left:63.3%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockford{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:56%;
+left:5.5%;
+margin-left:150px;
+background:url(http://pm1.narvii.com/7099/1945c953327741a716899fda7db4ed5ed281160dr1-900-900v2_uhq.jpg);
+background-size:cover
+}
+.blockford:hover .blockusford{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockford:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pford{
+position: absolute;
+left:12%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockusford{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:16px;
+color: white;
+width: 270px;
+height: 270px;
+border-radius:20px;
+top:110px
+}
+.blockusford p {
+padding: 110px 0px;
+text-align:
+center;
+}
+.blockbs{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:56%;
+left:25.5%;
+margin-left:150px;
+background:url(https://i.pinimg.com/736x/58/73/2b/58732bffb3a31cdcef8c65d0c6d47607--art-doodle-gravity-falls-anime.jpg);
+background-size:cover
+}
+.blockbs:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockbs:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pbs{
+position: absolute;
+left:34.7%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockpac{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:56%;
+left:45.5%;
+margin-left:150px;
+background:url(https://pm1.narvii.com/6844/ccaaf1d71b12d417fbd86b0c6bd2f47ff86d24e4v2_hq.jpg);
+background-size:cover
+}
+.blockpac:hover .blockusford{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockpac:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+ppac{
+position: absolute;
+left:50.7%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockgg{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:56%;
+left:65.5%;
+margin-left:150px;
+background:url(https://geekhero.ru/wp-content/uploads/2016/02/Lil_Gideon_Headshot-768x768.jpg);
+background-size:cover
+}
+.blockgg:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockgg:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pgg{
+position: absolute;
+left:73.3%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}

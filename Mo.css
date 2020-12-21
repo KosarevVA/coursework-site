@@ -1,0 +1,286 @@
+.block1 {
+    width: 35%;
+    background: linear-gradient(135deg, hotpink, dodgerblue 100%);
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px dodgerblue;
+    float: left;
+    position: absolute;
+    top: 96%;
+    left: 65%;
+   }
+   .resp {
+    position: fixed;
+    width:100%;
+    height: 400px;
+}
+.resp1 {
+    position: fixed;
+    width:100%;
+    height: 100%;
+}
+.nazad{
+     padding: 15px 25px;
+         font-size: 24px;
+         text-align: center;
+         cursor: pointer;
+         outline: none;
+         color: #fff;
+         background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px cornflowerblue;
+         position: absolute;
+         top: 90%;
+         left: 44.5%;
+   }
+   .nazad:hover {background-color: goldenrod}
+   .nazad:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px dodgerblue;
+          transform: translateY(4px);
+          position: absolute;
+          top: 90%;
+          left: 44.5%;
+      }
+body{
+    background: url("https://www.culture.ru/storage/images/58a6d8c1cb971eb0c89d1d6aac9e9843/9d1bd5c342361214e248b8602794ec6d.jpeg");
+    position: fixed;
+    width:100%;
+    height: 100%;
+
+  }
+.text{
+    font: bold 5em "SEGOE SCRIPT", sans-serif;
+    color: whitesmoke;
+    text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                 powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                 blue 5px 5px 0;
+    margin-bottom: 0.1em;
+}
+.blockus{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:16px;
+color: white;
+width: 300px;
+height: 300px;
+border-radius:20px;
+top:110px
+}
+.blockus p {
+padding: 110px 0px;
+text-align:
+center;
+}
+.blockpen{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:-3%;
+margin-left:150px;
+background:url(https://forfeed.ru/images/photos/medium/0a6b5f1e746d9cfe0624e8aa23115d3e.jpg);
+background-size:cover
+}
+.blockpen:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockpen:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+ppen{
+position: absolute;
+left:9.8%;
+top:53%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockdds{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:27%;
+margin-left:150px;
+background:url(https://data.whicdn.com/images/326859576/original.jpg);
+background-size:cover
+}
+.blockdds:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockdds:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pdds{
+position: absolute;
+left:39.8%;
+top:53%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockpi{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:57%;
+margin-left:150px;
+background:url(https://i.pinimg.com/736x/20/10/ed/2010edeccd5c926f34730e41f03615c2.jpg);
+background-size:cover
+}
+.blockpi:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockpi:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+ppi{
+position: absolute;
+left:71%;
+top:53%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockve{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:52%;
+left:42%;
+margin-left:150px;
+background:url(https://i.pinimg.com/736x/dd/f6/0a/ddf60ace3cf1e732ab6fc94064e59ecf.jpg);
+background-size:cover
+}
+.blockve:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockve:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pve{
+position: absolute;
+left:55%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockdj{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:52%;
+left:12%;
+margin-left:150px;
+background:url(https://yt3.ggpht.com/a/AATXAJy4UGCNhppAdX9S2QRkuC5Woxcuh2hYKZNQgm_z=s900-c-k-c0xffffffff-no-rj-mo);
+background-size:cover
+}
+.blockdj:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockdj:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pdj{
+position: absolute;
+left:23%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockdjo{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:52%;
+left:72%;
+margin-left:150px;
+background:url(https://i.pinimg.com/736x/3a/14/03/3a14034d177f9465681a6003cd4afbc7.jpg);
+background-size:cover
+}
+.blockdjo:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockdjo:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pdjo{
+position: absolute;
+left:84.5%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}

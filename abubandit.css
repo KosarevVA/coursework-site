@@ -1,0 +1,407 @@
+.block1 {
+    width: 35%;
+    background: linear-gradient(135deg, hotpink, dodgerblue 100%);
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px dodgerblue;
+    float: left;
+    position: absolute;
+    top: 96%;
+    left: 65%;
+   }
+   .resp {
+    position: fixed;
+    width:100%;
+    height: 400px;
+}
+.resp1 {
+    position: fixed;
+    width:100%;
+    height: 100%;
+}
+.nazad{
+     padding: 15px 25px;
+         font-size: 24px;
+         text-align: center;
+         cursor: pointer;
+         outline: none;
+         color: #fff;
+         background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px cornflowerblue;
+         position: absolute;
+         top: 90%;
+         left: 44.5%;
+   }
+   .nazad:hover {background-color: goldenrod}
+   .nazad:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px dodgerblue;
+          transform: translateY(4px);
+          position: absolute;
+          top: 90%;
+          left: 44.5%;
+      }
+body{
+    background: url("https://www.culture.ru/storage/images/58a6d8c1cb971eb0c89d1d6aac9e9843/9d1bd5c342361214e248b8602794ec6d.jpeg");
+    position: fixed;
+    width:100%;
+    height: 100%;
+
+  }
+.text{
+    font: bold 5em "SEGOE SCRIPT", sans-serif;
+    color: whitesmoke;
+    text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                 powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                 blue 5px 5px 0;
+    margin-bottom: 0.1em;
+}
+.blockus{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:18px;
+color: white;
+width: 270px;
+height: 270px;
+border-radius:20px;
+top:110px
+}
+.blockus p {
+padding: 110px 0px;
+text-align:
+center;
+}
+.blockDP{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:35%;
+margin-left:150px;
+background:url(https://vignette.wikia.nocookie.net/disneyworldofwar/images/e/e2/Aladdin.jpg/revision/latest?cb=20160213022124);
+background-size:cover
+}
+.blockDP:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockDP:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pDP{
+position: absolute;
+left:46.5%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockMP{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:15%;
+margin-left:150px;
+background:url(https://pbs.twimg.com/media/EQOFF_GWoAANFP-.png);
+background-size:cover
+}
+.blockMP:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockMP:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pMP{
+position: absolute;
+left:26%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockVK{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:-5%;
+margin-left:150px;
+background:url(https://im0-tub-ru.yandex.net/i?id=10c355122699420e5209f374e1068739&n=13);
+background-size:cover
+}
+.blockVK:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockVK:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pVK{
+position: absolute;
+left:7.7%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blocksus{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:75%;
+margin-left:150px;
+background:url(https://i.pinimg.com/736x/f0/f8/9a/f0f89a240e841942bd250ac7b38a17de--aladdin-party-aladdin-jasmine.jpg);
+background-size:cover
+}
+.blocksus:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blocksus:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+psus{
+position: absolute;
+left:86.3%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockstan{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:21%;
+left:55%;
+margin-left:150px;
+background:url(http://www.elbakin.net/plume/xmedia/fantasy/news/disney/aladdin/aladdin-genie.jpg);
+background-size:cover
+}
+.blockstan:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockstan:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pstan{
+position: absolute;
+left:66.5%;
+top:50%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockford{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:56%;
+left:5.5%;
+margin-left:150px;
+background:url(https://newcastlebeach.org/images/aladdin-raja-3.jpg);
+background-size:cover
+}
+.blockford:hover .blockusford{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockford:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pford{
+position: absolute;
+left:17%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockusford{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:18px;
+color: white;
+width: 270px;
+height: 270px;
+border-radius:20px;
+top:110px
+}
+.blockusford p {
+padding: 110px 0px;
+text-align:
+center;
+}
+.blockbs{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:56%;
+left:25.5%;
+margin-left:150px;
+background:url(https://cdn.hipwallpaper.com/i/64/12/rzlOWv.png);
+background-size:cover
+}
+.blockbs:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockbs:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pbs{
+position: absolute;
+left:36.2%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockpac{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:56%;
+left:45.5%;
+margin-left:150px;
+background:url(https://pbs.twimg.com/media/Ea6Iu5FXkAgUJJ6.jpg);
+background-size:cover
+}
+.blockpac:hover .blockusford{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockpac:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+ppac{
+position: absolute;
+left:55.5%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockgg{
+width:270px;
+height:270px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:56%;
+left:65.5%;
+margin-left:150px;
+background:url(https://i.pinimg.com/736x/e8/28/cf/e828cf33a9a95d13ba8f317e6cbcc943.jpg);
+background-size:cover
+}
+.blockgg:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockgg:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pgg{
+position: absolute;
+left:76.5%;
+top:84%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}

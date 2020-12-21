@@ -1,0 +1,1012 @@
+
+@media(max-width:1200px){
+.text h2{
+margin:75% 0 0 70%!important;
+width:100%!important;
+}
+@media (max-width:1200px) and (orientation:landscape){
+.text h2{
+margin:60% 0 0 65%!important;
+width:100%!important;
+}
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 509px) {
+       .products {
+           display: grid;
+           grid-template-columns: 1fr;
+           grid-template-rows: 7% 7%;
+           margin-bottom: 450%;
+       }
+   }
+@media only screen and (min-width: 510px) and (max-width: 779px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 20% 20%;
+        grid-row-gap: 5%;
+        margin-bottom: 75%;
+    }
+}
+@media only screen and (min-width: 780px) and (max-width: 1000px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: 25% 25%;
+        grid-row-gap: 5%;
+        margin-bottom: 5%;
+    }
+}
+.resp{
+    position: fixed;
+    width:100%;
+    height: 400px;
+}
+.resp1 {
+    position: fixed;
+    width:100%;
+    height: 100%;
+}
+.div {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.div:hover {background-color: goldenrod}
+.div:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.text{
+    font: bold 5em "SEGOE SCRIPT", sans-serif;
+    color: whitesmoke;
+    text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                 powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                 blue 5px 5px 0;
+    margin-bottom: 0.1em;
+}
+.text2
+{
+    font: bold 2em "SEGOE SCRIPT", sans-serif;
+    color: whitesmoke;
+    text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                 powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                 blue 5px 5px 0;
+    margin-bottom: 0.1em;
+}
+.block1 {
+    width: 35%;
+    background: linear-gradient(135deg, hotpink, dodgerblue 100%);
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px dodgerblue;
+    float: left;
+    position: absolute;
+    top: 96%;
+    left: 63%;
+   }
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.button:hover {background-color: goldenrod}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.button2 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 40%;
+    left: 44%;
+}
+.button2:hover {background-color: goldenrod}
+.button2:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 40%;
+    left: 44%;
+}
+.button3 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+.button3:hover {background-color: goldenrod}
+.button3:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+.button4 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 55%;
+    left: 32.5%;
+}
+.button4:hover {background-color: goldenrod}
+.button4:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 55%;
+    left: 32.5%;
+}
+.button5 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 55%;
+    left: 54%;
+}
+.button5:hover {background-color: goldenrod}
+.button5:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 55%;
+    left: 54%;
+}
+.Mikky {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("http://1.bp.blogspot.com/-U73usDMBOb0/Vfxk_DYLSPI/AAAAAAAAKEw/L0bTjyKrHAc/s1600/462343%2B%25285%2529.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+     top: 30%;
+    left: 12%;
+}
+.Mikky:hover {background-color: goldenrod}
+.Mikky:active {
+    background-image: url("http://1.bp.blogspot.com/-U73usDMBOb0/Vfxk_DYLSPI/AAAAAAAAKEw/L0bTjyKrHAc/s1600/462343%2B%25285%2529.jpg");
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+     top: 30%;
+    left: 12%;
+}
+.LeddyBag {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://sun9-23.userapi.com/c855524/v855524888/c7708/-fzSg_bPHMI.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 28.5%;
+}
+.LeddyBag:hover {background-color: goldenrod}
+.LeddyBag:active {
+    background-image: url("https://sun9-23.userapi.com/c855524/v855524888/c7708/-fzSg_bPHMI.jpg");
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 30%;
+    left: 28.5%;
+}
+.Folz {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+     color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://top10a.ru/wp-content/uploads/2019/10/osn-44.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+.Folz:hover {background-color: goldenrod}
+.Folz:active {
+    background-image: url("https://top10a.ru/wp-content/uploads/2019/10/osn-44.jpg");
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+.Alladin {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://slovnet.ru/wp-content/uploads/2019/08/4-68.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 45%;
+    left: 69%;
+}
+.Alladin:hover {background-color: goldenrod}
+.Alladin:active {
+    background-image: url("https://slovnet.ru/wp-content/uploads/2019/08/4-68.jpg");
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 45%;
+    left: 69%;
+}
+.Rapun {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://image.wallperz.com/wp-content/uploads/2018/08/29/wallperz.com-20180829170505.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+}
+.Rapun:hover {background-color: goldenrod}
+.Rapun:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 45%;
+    left: 54%;
+}
+.Lion {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://img2.goodfon.ru/original/1920x1200/c/91/simba-timon-korol-lev-pumba.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 45%;
+    left: 38.5%;
+}
+.Lion:hover {background-color: goldenrod}
+.Lion:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 45%;
+    left: 38.5%;
+}
+.Ducks {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://s26037.cdn.ngenix.net/sdp/nc-snapshot1553025955594.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+.Ducks:hover {background-color: goldenrod}
+.Ducks:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+.Pen {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://i.artfile.ru/1024x768_411048_[www.ArtFile.ru].jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 60.3%;
+}
+.Pen:hover {background-color: goldenrod}
+.Pen:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 30%;
+    left: 60.3%;
+}
+.Valli {
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://designchat.com/wp-content/uploads/2019/01/133WellE.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 76%;
+}
+.Valli:hover {background-color: goldenrod}
+.Valli:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 30%;
+    left: 76%;
+}
+.Pinokio{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://wallpapertag.com/wallpaper/full/5/2/8/891810-large-pinocchio-wallpaper-1920x1080-notebook.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 60%;
+    left: 11%;
+}
+.Pinokio:hover {background-color: goldenrod}
+.Pinokio:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 60%;
+    left: 11%;
+}
+.VinniPuh{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://proprikol.ru/wp-content/uploads/2020/04/kartinki-vinni-puh-7.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 60%;
+    left: 26%;
+}
+.VinniPuh:hover {background-color: goldenrod}
+.VinniPuh:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 60%;
+    left: 26%;
+}
+.CD{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://avatars.mds.yandex.net/get-zen_doc/1917356/pub_5ddea9306c428f7920c2edc9_5ddea976cf927e718e2e5951/scale_1200");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 60%;
+    left: 41.5%;
+}
+.CD:hover {background-color: goldenrod}
+.CD:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 60%;
+    left: 41.5%;
+}
+.HS{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://s1.1zoom.ru/b5050/383/302797-Sepik_1920x1200.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 60%;
+    left: 57.3%;
+}
+.HS:hover {background-color: goldenrod}
+.HS:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 60%;
+    left: 57.3%;
+}
+.Bembi{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://bipbap.ru/wp-content/uploads/2018/08/5574203ef317d815abd20f9290f5cd22.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 60%;
+    left: 77.5%;
+}
+.Bembi:hover {background-color: goldenrod}
+.Bembi:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 60%;
+    left: 77.5%;
+}
+.Moana{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://wallbox.ru/wallpapers/main2/201645/pua-moana-moana-maui-maui-pua.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 75%;
+    left: 14%;
+}
+.Moana:hover {background-color: goldenrod}
+.Moana:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 75%;
+    left: 14%;
+}
+.Dolm{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("http://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1Rk9-BZk1onrzdxT7-t3pk1KqaKTM5SRkZCeTgDn6uOyic");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+.Dolm:hover {background-color: goldenrod}
+.Dolm:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+.Sleep{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://cdn.shazoo.ru/400037_vIJNWGvFiQ_1.jpg");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 75%;
+    left: 47.5%;
+}
+.Sleep:hover {background-color: goldenrod}
+.Sleep:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 75%;
+    left: 47.5%;
+}
+.KJ{
+    padding: 40px 64px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    text-shadow: black 1px 0 10px;
+    background-image: url("https://avatars.mds.yandex.net/get-zen_doc/196516/pub_5d8a03e81febd400b18a0e81_5d8a1c6ca3f6e400ad100395/scale_1200");
+    background-size: cover;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px cornflowerblue;
+    position: absolute;
+    top: 75%;
+    left: 68.5%;
+}
+.KJ:hover {background-color: goldenrod}
+.KJ:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px dodgerblue;
+    transform: translateY(4px);
+    position: absolute;
+    top: 75%;
+    left: 68.5%;
+}
+.round {
+position: absolute;
+top:-12%;
+left: 105%;
+border-radius: 150px;
+border: 3px solid lightskyblue;
+box-shadow: 0 0 7px #666;
+}
+.blockMikky {
+text-indent:20px;
+line-height:1.5;
+font-size:110%;
+    width: 70.5%;
+    background: whitesmoke;
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px dodgerblue;
+    float: left;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    text-size:24px;
+   }
+.nazad{
+     padding: 15px 25px;
+         font-size: 24px;
+         text-align: center;
+         cursor: pointer;
+         outline: none;
+         color: #fff;
+         background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px cornflowerblue;
+         position: absolute;
+         top: 90%;
+         left: 43%;
+   }
+.nazad:hover {background-color: goldenrod}
+.nazad:active {
+       background-color: #3e8e41;
+       box-shadow: 0 5px dodgerblue;
+       transform: translateY(4px);
+       position: absolute;
+       top: 90%;
+       left: 43%;
+   }
+.blocku{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:22%;
+left:-3%;
+margin-left:150px;
+background:url(https://yt3.ggpht.com/a/AATXAJyPcEdv7kwVHb-1QNmQZMqr59aCf2rycQ0NU_1e=s900-c-k-c0x00ffffff-no-rj);
+background-size:cover
+}
+.blocku:hover .blocku2{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blocku:hover{
+ filter:sepia(50%);
+ -webkit-filter:sepia(60%);
+ transition:0.6s;
+ -webkit-transition:0.6s;
+ }
+.blocku2{
+ position:absolute;
+ visibility:hidden;
+ left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+ font-size:18px;
+ color: white;
+ width: 300px;
+ height: 300px;
+ border-radius:20px;
+ top:110px
+ }
+
+.blocku2 p {
+ padding: 110px 0px;
+ text-align:
+ center;
+ }
+pMikky{
+position: absolute;
+left:6.5%;
+top:55%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+    color: whitesmoke;
+    text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                 powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                 blue 5px 5px 0;
+    margin-bottom: 0.1em;
+}
+.blockuMM{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:22%;
+left:27%;
+margin-left:150px;
+background:url(https://cdn.disney.ru/assets/w1386/998c581d-d05d-4e31-beec-f4ef0052407a.webp);
+background-size:cover
+}
+.blockuMM:hover .blocku2{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockuMM:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pMini{
+     position: absolute;
+     left:37.5%;
+     top:55%;
+     font: bold 2em "SEGOE SCRIPT", sans-serif;
+         color: whitesmoke;
+         text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                      powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                      blue 5px 5px 0;
+         margin-bottom: 0.1em;
+     }
+     .blockudd{
+     width:300px;
+     height:300px;
+     border-radius:20px;
+     overflow:hidden;
+     position:absolute;
+     top:22%;
+     left:57%;
+     margin-left:150px;
+     background:url(https://cdn.disney.ru/assets/w1386/bea79212-f396-44b6-b79f-f1c224c92bcc.webp);
+     background-size:cover
+     }
+     .blockudd:hover .blockus{
+     visibility:visible;
+     transition:1s;-webkit-transition:1s;
+     transform:translatey(-110px);
+     -webkit-transform:translatey(-110px)
+     }
+     .blockuMM:hover{
+     filter:sepia(50%);
+     -webkit-filter:sepia(60%);
+     transition:0.6s;
+     -webkit-transition:0.6s;
+     }
+     pdd{
+          position: absolute;
+          left:67%;
+          top:55%;
+          font: bold 2em "SEGOE SCRIPT", sans-serif;
+              color: whitesmoke;
+              text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                           powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                           blue 5px 5px 0;
+              margin-bottom: 0.1em;
+          }
+.blockus{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:14px;
+color: white;
+width: 300px;
+height: 300px;
+border-radius:20px;
+top:110px
+}
+.blockus p {
+padding: 110px 0px;
+text-align:
+center;
+}
+ .blockug{
+     width:300px;
+     height:300px;
+     border-radius:20px;
+     overflow:hidden;
+     position:absolute;
+     top:52%;
+     left:42%;
+     margin-left:150px;
+     background:url(https://cdn.disney.ru/assets/w1386/a84b47d4-239a-4305-b3e4-54300e7b974a.webp);
+     background-size:cover
+     }
+     .blockug:hover .blockus{
+     visibility:visible;
+     transition:1s;-webkit-transition:1s;
+     transform:translatey(-110px);
+     -webkit-transform:translatey(-110px)
+     }
+     .blockug:hover{
+     filter:sepia(50%);
+     -webkit-filter:sepia(60%);
+     transition:0.6s;
+     -webkit-transition:0.6s;
+     }
+     pgufi{
+          position: absolute;
+          left:55.3%;
+          top:83%;
+          font: bold 2em "SEGOE SCRIPT", sans-serif;
+              color: whitesmoke;
+              text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                           powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                           blue 5px 5px 0;
+              margin-bottom: 0.1em;
+          }
+          .blockus0{
+          position:absolute;
+          visibility:hidden;
+          left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+          font-size:12px;
+          color: white;
+          width: 300px;
+          height: 300px;
+          border-radius:20px;
+          top:110px
+          }
+          .blockus0 p {
+          padding: 110px 0px;
+          text-align:
+          center;
+          }
+           .blockugdd2{
+               width:300px;
+               height:300px;
+               border-radius:20px;
+               overflow:hidden;
+               position:absolute;
+               top:52%;
+               left:12%;
+               margin-left:150px;
+               background:url(https://cdn.disney.ru/assets/w1386/c9263944-4467-472b-95e6-f697d7358d13.webp);
+               background-size:cover
+               }
+               .blockugdd2:hover .blockus0{
+               visibility:visible;
+               transition:1s;-webkit-transition:1s;
+               transform:translatey(-110px);
+               -webkit-transform:translatey(-110px)
+               }
+               .blockugdd2:hover{
+               filter:sepia(50%);
+               -webkit-filter:sepia(60%);
+               transition:0.6s;
+               -webkit-transition:0.6s;
+               }
+               pdaizy{
+                    position: absolute;
+                    left:22.5%;
+                    top:83%;
+                    font: bold 2em "SEGOE SCRIPT", sans-serif;
+                        color: whitesmoke;
+                        text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                                     powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                                     blue 5px 5px 0;
+                        margin-bottom: 0.1em;
+                    }
+.blockus{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:14px;
+color: white;
+width: 300px;
+height: 300px;
+border-radius:20px;
+top:110px
+}
+.blockus p {
+padding: 110px 0px;
+text-align:
+center;
+}
+ .blockup{
+     width:300px;
+     height:300px;
+     border-radius:20px;
+     overflow:hidden;
+     position:absolute;
+     top:52%;
+     left:72%;
+     margin-left:150px;
+     background:url(https://cdn.disney.ru/assets/w1386/374d9fd9-4254-41df-9441-f50410e4177e.webp);
+     background-size:cover
+     }
+     .blockup:hover .blockus{
+     visibility:visible;
+     transition:1s;-webkit-transition:1s;
+     transform:translatey(-110px);
+     -webkit-transform:translatey(-110px)
+     }
+     .blockup:hover{
+     filter:sepia(50%);
+     -webkit-filter:sepia(60%);
+     transition:0.6s;
+     -webkit-transition:0.6s;
+     }
+     ppit{
+          position: absolute;
+          left:85.8%;
+          top:83%;
+          font: bold 2em "SEGOE SCRIPT", sans-serif;
+              color: whitesmoke;
+              text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                           powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                           blue 5px 5px 0;
+              margin-bottom: 0.1em;
+          }

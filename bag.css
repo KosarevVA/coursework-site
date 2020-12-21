@@ -1,0 +1,191 @@
+.block1 {
+    width: 35%;
+    background: linear-gradient(135deg, hotpink, dodgerblue 100%);
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px dodgerblue;
+    float: left;
+    position: absolute;
+    top: 96%;
+    left: 65%;
+   }
+   .resp {
+    position: fixed;
+    width:100%;
+    height: 400px;
+}
+.resp1 {
+    position: fixed;
+    width:100%;
+    height: 100%;
+}
+.nazad{
+     padding: 15px 25px;
+         font-size: 24px;
+         text-align: center;
+         cursor: pointer;
+         outline: none;
+         color: #fff;
+         background: linear-gradient(135deg, cornflowerblue, lightskyblue 100%);
+         border: none;
+         border-radius: 15px;
+         box-shadow: 0 9px cornflowerblue;
+         position: absolute;
+         top: 90%;
+         left: 44.5%;
+   }
+   .nazad:hover {background-color: goldenrod}
+   .nazad:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px dodgerblue;
+          transform: translateY(4px);
+          position: absolute;
+          top: 90%;
+          left: 44.5%;
+      }
+
+.text{
+    font: bold 5em "SEGOE SCRIPT", sans-serif;
+    color: whitesmoke;
+    text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+                 powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+                 blue 5px 5px 0;
+    margin-bottom: 0.1em;
+}
+.blockus{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:16px;
+color: white;
+width: 300px;
+height: 300px;
+border-radius:20px;
+top:110px
+}
+.blockus p {
+padding: 110px 0px;
+text-align:
+center;
+}
+.blockb{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:38%;
+left:35%;
+margin-left:150px;
+background:url(https://yt3.ggpht.com/a/AATXAJyPZ4t4f-iVWusMEdfEvi8ekqNzdFQu2zt-5uePGQ=s900-c-k-c0xffffffff-no-rj-mo);
+background-size:cover
+}
+.blockb:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockb:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pb{
+position: absolute;
+left:46.3%;
+top:73%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blocksc{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:38%;
+left:8%;
+margin-left:150px;
+background:url(https://pm1.narvii.com/7002/ef34f9a43cf80dfa920789f8bac63d16e2ce438er1-1000-992v2_hq.jpg);
+background-size:cover
+}
+.blocksc:hover .blockus{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blocksc:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+psc{
+position: absolute;
+left:18.3%;
+top:73%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockbr{
+width:300px;
+height:300px;
+border-radius:20px;
+overflow:hidden;
+position:absolute;
+top:38%;
+left:62%;
+margin-left:150px;
+background:url(https://i.pinimg.com/originals/22/a8/1d/22a81dbaa97d3358a7580c57744507ed.jpg);
+background-size:cover
+}
+.blockbr:hover .blockss{
+visibility:visible;
+transition:1s;-webkit-transition:1s;
+transform:translatey(-110px);
+-webkit-transform:translatey(-110px)
+}
+.blockbr:hover{
+filter:sepia(50%);
+-webkit-filter:sepia(60%);
+transition:0.6s;
+-webkit-transition:0.6s;
+}
+pbr{
+position: absolute;
+left:73.3%;
+top:73%;
+font: bold 2em "SEGOE SCRIPT", sans-serif;
+color: whitesmoke;
+text-shadow: navajowhite 1px 1px 0, yellow 2px 2px 0,
+powderblue 3px 3px 0, lightskyblue 4px 4px 0,
+blue 5px 5px 0;
+margin-bottom: 0.1em;
+}
+.blockss{
+position:absolute;
+visibility:hidden;
+left:1px;background:rgba(0, 0, 0, 0.4392156862745098);
+font-size:17px;
+color: white;
+width: 300px;
+height: 300px;
+border-radius:20px;
+top:110px
+}
+.blockss p {
+padding: 110px 0px;
+text-align:
+center;
+}
